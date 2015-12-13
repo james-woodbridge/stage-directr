@@ -9,7 +9,7 @@
               pluginSilenceInIsSilenceOut="1" pluginEditorRequiresKeys="0"
               pluginAUExportPrefix="StageDirectorAU" pluginRTASCategory=""
               aaxIdentifier="com.yourcompany.StageDirector" pluginAAXCategory="AAX_ePlugInCategory_Dynamics"
-              jucerVersion="3.1.1">
+              jucerVersion="4.0.2">
   <MAINGROUP id="sGyM5i" name="StageDirector">
     <GROUP id="{7A95DA81-225C-AA94-13F8-246015496E40}" name="Source">
       <FILE id="rx9Txm" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -33,20 +33,20 @@
                        headerPath="/usr/local/include;&#10;/usr/local/lib;" customXcodeFlags=""/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_core" path="modules"/>
-        <MODULEPATH id="juce_events" path="modules"/>
-        <MODULEPATH id="juce_graphics" path="modules"/>
-        <MODULEPATH id="juce_data_structures" path="modules"/>
-        <MODULEPATH id="juce_gui_basics" path="modules"/>
-        <MODULEPATH id="juce_gui_extra" path="modules"/>
-        <MODULEPATH id="juce_cryptography" path="modules"/>
-        <MODULEPATH id="juce_video" path="modules"/>
-        <MODULEPATH id="juce_opengl" path="modules"/>
-        <MODULEPATH id="juce_audio_basics" path="modules"/>
-        <MODULEPATH id="juce_audio_devices" path="modules"/>
-        <MODULEPATH id="juce_audio_formats" path="modules"/>
-        <MODULEPATH id="juce_audio_processors" path="modules"/>
-        <MODULEPATH id="juce_audio_plugin_client" path="modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>
@@ -67,4 +67,7 @@
     <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
   </MODULES>
   <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+  <LIVE_SETTINGS>
+    <OSX enableCxx11="1"/>
+  </LIVE_SETTINGS>
 </JUCERPROJECT>
